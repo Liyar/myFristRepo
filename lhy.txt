@@ -2,3 +2,4 @@ Git is  free software for source code!
 Hello world!
 Commit without add!
 This is corrent commit!
+Modify a bug!
