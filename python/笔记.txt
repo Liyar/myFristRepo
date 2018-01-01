@@ -1,0 +1,12 @@
+1.mac如何升级python版本
+a.下载最新python版本安装包，安装
+b.修改path value值（使用sudo ln -s path 会直接覆盖原有的链接会导致调用自带的python的软件问题）
+  vi ~/.bash_profile
+  新增
+  alias python="/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6"
+  刷新
+  source ~/.bash_profile
+c.执行python，查看python版本
+d.使用./hello.py默认是系统自带2.7版本，使用python hello.py是新安装的3.6版本.
+e.或在文件加#!/usr/bin/env python3.6修改版本
+
